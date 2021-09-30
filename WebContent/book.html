@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>upload details</title>
+<style>
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 25px;
+        }
+
+        .wrapper {
+            width: 90%;
+          
+            margin: 0 auto;
+            padding: 1% 1%;
+        }
+
+        /*------------CSS FOR HEADER---------------*/
+        .header {
+            background-color: rgb(250, 50, 50);
+            color: white;
+
+        }
+
+        /*------------CSS FOR NAVBAR---------------*/
+        .menu ul {
+            list-style-type: none;
+        }
+
+        .menu ul a {
+            color: rgb(250, 50, 50);
+            text-decoration: none;
+            padding: 1%;
+        }
+
+        .menu ul a:hover {
+            background-color: rgb(250, 50, 50);
+            color: white;
+        }
+
+        .menu ul a li {
+            display: inline;
+        }
+        
+       /*---------------------CSS FOR MAIN----------------------*/ 
+    .book{
+    margin-top:10px;
+    margin-left:500px;
+    }
+    .book h1{
+    text-align:left;
+    }
+    .paybtn{
+
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+  }
+  .conbtn{
+   background-color: red;
+  color: white;
+  padding: 16px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+  }
+    
+    
+    
+    
+    
+       input[type=text], input[type=password] {
+  width: 25%;
+  padding: 15px;
+  margin: 0px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+       
+        
+        </style>
+</head>
+   <body>
+   <!-------------------header start here ---------------------->
+    <header class="header">
+        <div class="wrapper">
+            <h1>getHome.</h1>
+        </div>
+    </header>
+    <!------------------header ends here--------------------------->
+    <!-------------nav bar starts here----------------------------->
+    <nav class="menu">
+        <div class="wrapper">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About Us</li>
+                </a>
+          
+                <a href="contact.html">
+                    <li>Contact US</li>
+                </a>
+                <a href="signup.html">
+                    <li>Sign Up</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <!-----------------------nav ends here-------------------------->
+      <div class="book">
+      <form action ="broker.html">
+      <h1><u>Booking  Details</u></h1><br>
+           
+           Name <input type="text" placeholder="your name" name="name" required><br>
+           Email<input type="text" placeholder="email" name="email" required><br>
+           HouseID<input type="text" placeholder="eg 110101" name="houseid" required><br>
+           Contact<input type="text" placeholder="contact no.1" name="contactno" required><br>
+            Mobile <input type="text" placeholder="contact no.2"><br> 
+            <button  class="paybtn">payment</button>
+            <button type="submit" class="conbtn">Contact team</button>
+       </form>
+       </div>
+       <div>
+      
+       </div>
+   </body>
+</html>
